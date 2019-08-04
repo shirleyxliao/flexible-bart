@@ -11,7 +11,7 @@ Data used for the analysis in a data frame structure with each row representing 
 
 - Exposure: dichotomized (dicho.oz) and continuous ozone (max.oz) concentrations 
 
-- Confounders: Maximum temperature, PM concentration, UV Index, date, holiday and weekend indicators
+- Confounders: Maximum temperature, PM concentration, UV Index, date, holiday and weekend indicators, date and city indicators
 
 ### Dog_data.R
 
@@ -19,12 +19,26 @@ Data for the sensitivity analysis on ozone concentration and dog bites. Same str
 
 ## Analysis files
 
-### Crime_analysis.R
+### Primary_analysis.R
 
-Code for the primary analysis described in Section 3, as well as sensitivity analyses []. 
+Code for the primary analysis (3.2) with a binary exposure as well as sensitivity analyses (3.5 and 3.6). 
+
+### Secondary_analysis.R
+
+Code for the secondary analysis (3.3) with a continuous exposure (estimating a dose-response relationship) as well as sensitivity analyses (3.6 and 3.7). 
 
 ### Dog_analysis.R
 
-Code for sensitivity analysis []. 
+Code for sensitivity analysis with dog-bite outcome data (3.6).
+
+## Figure code
+
+### Tables_code.R
+
+### Primary_figures_code.R
+
+### Dose_response_code.R
+
+### Misc_figures_code.R
 
 
